@@ -1,0 +1,27 @@
+:root{
+    --bg-color:#333 !important;
+    --font-color:#236d07;
+    --primary-color:#56afb8;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--font-color)
+}
+
+.back-color{
+    background:rgb(45,37,83);
+    color: var(--font-color)
+}
+
+.navbar{
+    border-bottom-color: rgb(45,37,83) 3px solid;
+    opacity:0.8;
+}
+
+.links-list { 
+    position: absolute;
+    right: 0; 
+}
+
+
