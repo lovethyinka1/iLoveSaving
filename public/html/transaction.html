@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transaction</title>
+    <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="mainwrp">
+        <div id = "sidebar" class="chiddiv1">
+            <div class="avatartop">
+                <div class="logo">iLoveSaving</div>
+                <div id="prt">
+                    <img src="../img/woman.png" alt="" id="pp">
+                    <img src="../img/camera1.png" alt="" id="cam">
+                </div>
+                <input type="file" id="fileupload" />
+                <p id="callName"></p>
+            </div>
+
+            <div class="downwrp">
+                <ul>
+                    <a href="../html/deposit.html" id="deposit">
+                        Deposit Funds
+                    </a>
+                    <a href="../html/withdraw.html" id="sent">
+                        Withdraw funds
+                    </a>
+                    <a href="../html/update.html" id="draft">
+                        Update account
+                    </a>
+                    <a href="#" id="trash">Transaction history</a>
+                </ul>
+            </div>
+        </div>
+        <div class="chiddiv2">
+            <div class="topbar">
+                <div class="leftwrp">
+                    <h2>Transactions</h2>
+                </div>
+                <div class="searchwrp">
+                    <a href="../index.html" id="logout">logout</a>
+                </div>
+            </div>
+            <div>
+
+                <table id="display">
+                    <tr class="tx-details">
+                        <td>Transaction ID</td>
+                        <td>Transaction Date</td>
+                        <td>Email</td>
+                        <td>Amount</td>
+                        <td>Transaction Type</td>
+                    </tr>
+                    <tr>
+                        <td>Angela Valdes</td>
+                        <td>I am an FBI agent</td>
+                        <td>23/12/2016 3:30am</td>
+                        <td>I am an FBI agent</td>
+                        <td>23/12/2016 3:30am</td>
+                    </tr>
+                    <tr>
+                        <td>Angela Valdes</td>
+                        <td>I am an FBI agent</td>
+                        <td>23/12/2016 3:30am</td>
+                        <td>I am an FBI agent</td>
+                        <td>23/12/2016 3:30am</td>
+                    </tr>
+                </table>
+            </div>
+            <footer class="fixed-footer">iLoveSaving &copy 2019</footer>
+</body>
+
+</html>
