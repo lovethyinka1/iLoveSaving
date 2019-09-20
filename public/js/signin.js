@@ -12,7 +12,7 @@ function signInUser() {
                     alert("Email or password incorrect")
                 } else {
                     const { id, email, password, firstName } = data[0];
-                    const userInfo = JSON.stringify({ id, email, password });
+                    const userInfo = JSON.stringify({ id, email, password,firstName });
                     localStorage.setItem('user', userInfo)
                     window.location.replace('../html/transaction.html');
                 }
