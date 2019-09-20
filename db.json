@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Adelola",
+      "lastName": "Adeniyi",
+      "email": "loveth@gmail.com",
+      "password": "lovethgrace",
+      "phoneNumber": "07019703051"
+    },
+    {
+      "firstName": "Ada",
+      "lastName": "Lovelace",
+      "phoneNumber": "0178289219",
+      "email": "adalovelace@gmail.com",
+      "password": "adalovelace",
+      "id": 2
+    }
+  ]
+}
