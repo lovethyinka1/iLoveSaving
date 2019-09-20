@@ -17,6 +17,7 @@ function depositMoney(){
             success: function (data){
                 console.log(data)
                 window.location.replace('../html/transaction.html')
+                alert(`You have successfully deposited ${amount} to your account`)
             }
         })
     })
