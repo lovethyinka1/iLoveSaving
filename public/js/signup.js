@@ -22,7 +22,7 @@ function signUpUser() {
         }).done((data) =>{
             console.log(data)
                 const { id, email, password, firstName } = data;
-                const userInfo = JSON.stringify({ id, email, password });
+                const userInfo = JSON.stringify({ id, email, password,firstName });
                 localStorage.setItem('user', userInfo)
                 window.location.replace("../html/transaction.html")
                 alert(`${data.firstName}, you are welcome to the world of saving`)

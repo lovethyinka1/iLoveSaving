@@ -26,19 +26,29 @@
     }
   ],
   "transactions": [
-      {
-          "id": 1,
-          "type": "Deposit",
-          "date": "26-10-2019",
-          "userEmail": "adalovelace@gmail.com",
-          "amount": 3000
-      },
-      {
-        "id": 2,
-        "type": "Withdrawal",
-        "date": "26-10-2019",
-        "userEmail": "adalovelace@gmail.com",
-        "amount": 4000
+    {
+      "id": 1,
+      "type": "Deposit",
+      "date": "26-10-2019",
+      "userEmail": "adalovelace@gmail.com",
+      "amount": 3000
+    },
+    {
+      "id": 2,
+      "type": "Withdrawal",
+      "date": "26-10-2019",
+      "userEmail": "adalovelace@gmail.com",
+      "amount": 4000
+    },
+    {
+      "amount": "4000",
+      "cardNumber": "876456789899",
+      "cvv": "232",
+      "expiryDate": "09/21",
+      "type": " Deposit",
+      "date": "Fri Sep 20 2019 04:42:31 GMT+0100 (West Africa Standard Time)",
+      "userEmail": "adalovelace@gmail.com",
+      "id": 3
     }
   ]
 }

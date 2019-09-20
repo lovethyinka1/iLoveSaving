@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Compose</title>
+    <title>Deposit</title>
     <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
@@ -45,22 +45,24 @@
                         </div>
                     </div>
     <div class="mwrp">
-        <form action="" class="subwrp">
+        <form  class="subwrp">
             <div id="subwrp1">
-                <input type="text" name="" id="amount" placeholder="Amount...">
+                <input type="text" name="" id="amount" placeholder="Amount..." required>
             </div>
             <div id="subwrp2">
-                <input type="text" name="" id="card-number" placeholder="Card Number...">
+                <input type="text" name="" id="card-number" placeholder="Card Number..." required>
             </div>
             <div id="subwrp3">
-                <input id="cvv" placeholder="CVV">
+                <input id="cvv" placeholder="CVV" required>
             </div>
             <div id="subwrp4">
-                <input id="expiry-date" placeholder="Expiry Date">
+                <input id="expiry-date" placeholder="Expiry Date" required>
             </div>
-            <button type="submit" id="snd">Deposit</button>
+            <button id="snd" onclick="depositMoney()">Deposit</button>
         </form>
     </div>
     <footer class="fixed-footer">iLoveSaving &copy 2019</footer>
 </body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/deposit.js"></script>
 </html>
