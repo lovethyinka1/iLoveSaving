@@ -16,11 +16,7 @@ function updateAccount(){
                 url: `http://localhost:3000/users/${retrievedId}`,
                 type: 'PATCH',
                 data: {
-                    phoneNumber: newPhoneNumber,
-                    // firstName: fName,
-                    // lastName: lName,
-                    // email: newEmail,
-                    // password: newPass
+                    phoneNumber: newPhoneNumber
                 }
             }).done(function(data){
                 window.location.replace('../html/transaction.html');
