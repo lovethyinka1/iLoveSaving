@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Compose</title>
+    <title>Withdraw</title>
     <link rel="stylesheet" type="text/css" href="../css/dashboard.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
@@ -45,7 +45,7 @@
                         </div>
                     </div>
     <div class="mwrp">
-        <form action="" class="subwrp">
+        <form class="subwrp">
             <div id="subwrp1">
                 <input type="text" name="" id="amount" placeholder="Amount...">
             </div>
@@ -53,11 +53,13 @@
                 <input type="text" name="" id="card-number" placeholder="Destination Bank...">
             </div>
             <div id="subwrp3">
-                <input id="cvv" placeholder="Password">
+                <input id="cvv" type="password" placeholder="Password">
             </div>
-            <button type="submit" id="snd">Withdraw</button>
+            <button type="submit" id="snd" onclick="withdrawMoney()">Withdraw</button>
         </form>
     </div>
     <footer class="fixed-footer">iLoveSaving &copy 2019</footer>
 </body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/withdraw.js"></script>
 </html>
