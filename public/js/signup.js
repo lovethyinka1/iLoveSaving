@@ -18,12 +18,14 @@ function signUpUser() {
         $.ajax({
             url: 'http://localhost:3000/users',
             type: "POST",
-            data: user,
-            success: function (data){
-                console.log(data)
+            data: user
+        }).done((data) =>{
+            console.log(data)
+                const { id, email, password, firstName } = data;
+                const userInfo = JSON.stringify({ id, email, password });
+                localStorage.setItem('user', userInfo)
                 window.location.replace("../html/transaction.html")
                 alert(`${data.firstName}, you are welcome to the world of saving`)
-            }
         })
     }
     })

@@ -15,6 +15,30 @@
       "email": "adalovelace@gmail.com",
       "password": "adalovelace",
       "id": 2
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Gbenga",
+      "phoneNumber": "0908127128",
+      "email": "gbengadaniel@gmail.com",
+      "password": "gbengadaniel",
+      "id": 3
+    }
+  ],
+  "transactions": [
+      {
+          "id": 1,
+          "type": "Deposit",
+          "date": "26-10-2019",
+          "userEmail": "adalovelace@gmail.com",
+          "amount": 3000
+      },
+      {
+        "id": 2,
+        "type": "Withdrawal",
+        "date": "26-10-2019",
+        "userEmail": "adalovelace@gmail.com",
+        "amount": 4000
     }
   ]
 }
